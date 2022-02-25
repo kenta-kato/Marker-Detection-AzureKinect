@@ -1,19 +1,7 @@
-# Azure-Kinect-Unity-Sample
+# Environments
+・This sample project uses [this repository](https://github.com/TakashiYoshinaga/Azure-Kinect-Sample-for-Unity) to generate point cloud data in Unity.  
+・AR marker detection and pose estimation is done using [OpenCV plus Unity](https://assetstore.unity.com/packages/tools/integration/opencv-plus-unity-85928?locale=ja-JP) assets.  
 
-(1) Install AzureKinedtSDK <b>v.1.4.1</b> .<br>
-https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md
-
-(2) Install dll files into Unity Project.<br>
-Find following directory and copy all files into <b>Plugins</b> folder of this Uity Smaple.<br> 
-<i>C:\Program Files\Azure Kinect SDK v1.4.1\sdk\windows-desktop\amd64\release\bin </i>
-
-(3) You can test following Demos.<br>
-・PointCloud.unity<br>
-・TextureMesh.unity<br><br>
-[![](https://img.youtube.com/vi/Nt0oMN5Ece0/0.jpg)](https://www.youtube.com/watch?v=Nt0oMN5Ece0)
-
-<br>
-Notice:<br>
-This sapmle was comfirmed to work with Unity2019.4.25
-
-
+# Notes
+・For maintainability reasons, it is more appropriate to purchase paid [assets](https://assetstore.unity.com/packages/tools/integration/azure-kinect-examples-for-unity-149700?locale=ja-JP) or refer to the [Microsoft installation](https://github.com/microsoft/Azure-Kinect-Samples/tree/master/body-tracking-samples/sample_unity_bodytracking) instructions as a way to use Azure Kinect with Unity.　　
+．I couldn't get it to install properly, but [NuGetForUnity](https://github.com/GlitchEnzo/NuGetForUnity) is a way to use the latest version of [OpenCV](https://github.com/shimat/opencvsharp).
